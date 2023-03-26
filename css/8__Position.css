@@ -1,0 +1,91 @@
+*{
+    font: Helvetica sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content-ul{
+    position: relative;
+    background-color: rebeccapurple;
+    /* overflow: auto; */
+}
+
+ul{
+    background:rgb(201, 13, 13);
+    list-style: none;
+    width: 100%;
+    /* position property  */
+    /* position: -webkit-sticky;
+    position:sticky; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* z-index: 1; */
+    /* top: 0;
+    bottom: 0; */
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2em;
+}
+li:hover{
+    background-color: royalblue;
+}
+
+div{
+    background: rgb(36, 36, 37);
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+    /* agregado after class */
+    line-height: 30px;
+}
+
+/* img*/
+.container{
+    position: relative;
+    background: purple;
+}
+
+div img{
+    max-width: 100%;
+}
+
+/* agregar texto sobre imagen */
+.position{
+    width: 200px;
+    background:rgb(211, 53, 79);
+    position: absolute;
+    /* agregado luego de class */
+    text-align: center;
+}
+
+.TopRigth{
+    right: 20px;
+    top: 50px;
+}
+.TopLeft{
+top: 50px;
+left: 20px;
+}
+
+.BottomRigth{
+    right: 20px;
+    bottom: 50px;
+}
+.BottomLeft{
+    left: 20px;
+    bottom: 50px;
+}
+
+.Center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: rgba(250, 248, 248, 0);
+    color: red;
+    font-size: 2em;
+}

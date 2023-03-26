@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    font:George sans-serif;
+}
+
+div{
+    /* width: 500px; */
+    padding: 5px;
+    /* background: rgb(212, 207, 207); */
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table, th, td{
+    /* border: 2px solid #00f; */
+    text-align: center;
+}
+th{
+    height: 30px;
+    background-color: rgb(6, 141, 92);
+    color: white;
+}
+/* td{
+    height: 59px;
+    vertical-align: text-top;
+} */
+
+th,td{
+    /* border-bottom: 2px dotted #333; */
+    /* border-bottom: 2px solid rgb(50, 29, 238); */
+    padding: 5px;
+}
+/* agregado luego de clase para mejorar estilo */
+tr:not(tr:nth-child(1)){
+    border-bottom: 2px solid rgb(67, 67, 71);
+}
+tr:nth-child(odd){
+    background-color: #f1f1f1; /*se agrego punto y coma*/
+}
+tr:hover{
+    background-color: rgba(20, 20, 20, 0.699);
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/* pantalla adaptativa */
+@media screen and (max-width:600px){
+    div{
+        width: 400px;
+    }
+}
+
+

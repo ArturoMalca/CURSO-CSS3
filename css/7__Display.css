@@ -1,0 +1,22 @@
+div{
+    /* background: royalblue; */
+    background: rgb(36, 35, 35);
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+}
+
+ul{
+    background:rgb(214, 64, 64);
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    background: rgb(126, 201, 231);
+}
+li:hover{
+    background-color: royalblue;
+}

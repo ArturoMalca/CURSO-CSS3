@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+/* propiedades css para el relleno de un elemento html */
+div{
+    background: #5c5c5c;
+    color: rgb(255,255,255);
+    text-align: justify;
+    /* padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px; */
+    /* padding:40px 50px 40px 50px;
+    padding: 40px 50px 30px;
+    padding: 40px; */
+    padding:40px 50px;
+
+    /* width: 500px; */
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* propiedades css para el contorno de un elemento */
+.content{
+    /* outline-width: 30px;
+    outline-color: red;
+    outline-style: dashed; */
+    outline-offset: 15px;
+
+    outline:25px dotted#00f;
+
+    border:10px solid #0f0;
+}
+
+/* propiedades de css para texto */
+.text{
+    text-align-last: right;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* text-decoration: overline; */
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline line-through; */
+
+    /* text-decoration-color: red; */
+
+    /* text-decoration-style: solid; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: double; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-thickness: 5px; */
+
+    text-decoration: line-through #ddd wavy 1px;
+
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+    text-indent: 10px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    word-spacing: 10px;
+    /* white-space: pre-line; */
+
+    /* text-shadow: 0 0 3px #f00, 0 0 5px #00f; */
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.text span{
+    vertical-align: super;
+}

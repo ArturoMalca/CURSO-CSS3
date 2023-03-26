@@ -1,0 +1,39 @@
+/* agregado luego de clase para mejorar estilo */
+.content{
+    background-color: rgb(163, 163, 161);
+    text-align: center;
+    border-radius: 50px;
+}
+
+a{
+    /* background-color: rebeccapurple; */
+    text-decoration: none;
+    /* font-size: 20px; */
+    background-color: rgba(102, 104, 102, 0.411);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a:link{
+    color: rgb(233, 236, 17);
+}
+a:visited{
+    color: rgb(4, 56, 27);
+}
+a:hover{
+    color:rgb(255, 0, 0);
+    background-color: rgb(88, 88, 90);
+}
+a:active{
+    color: rgb(250, 248, 248);
+}
+
+.cursor-type{
+background-color: rgb(165, 165, 168);
+padding: 2px;
+text-align: center;
+margin: 5px;
+font:helvetica sans-serif;
+/* border-radius: 40%; */
+}
