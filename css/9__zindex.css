@@ -1,0 +1,35 @@
+/* .container{
+ background: #333;
+} */
+
+/* ############################## */
+.black-box, .green-box, .gray-box{
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font: 1.2em Helvetica;
+}
+
+.black-box{
+    background: #000;
+    position: relative;
+    z-index: 1;
+    /* margin-left: 20px; */
+    margin:0 20px;
+}
+.green-box{
+    background: #0f0;
+    position: relative;
+    z-index: 2;
+    /* margin-left: 80px; */
+    margin: 0 80px;
+    top: -30px;
+}
+.gray-box{
+    background: #333;
+    position: relative;
+    z-index: 3;
+    /* margin-left: 140px; */
+    margin: 0 140px;
+    top: -60px;
+}

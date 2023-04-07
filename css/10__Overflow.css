@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul{
+    background: #333;
+    color:#fff;
+    padding: 10px;
+    list-style: none;
+    font: 1.3em Georgia Helvetica;
+    width: 699px;
+    height: 100px;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+}
+
+ul li{
+    padding: 30px;
+    background-color: rgba(18, 18, 19, 0.5);
+    cursor: pointer;
+    width: 800px;
+    height: 400px;
+}
+ul li:hover{
+    background: #999;
+}
