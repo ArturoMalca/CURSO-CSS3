@@ -1,0 +1,44 @@
+h2{
+    background: #4f584f;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+p{
+    background-color: rgb(7, 145, 7);
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+}
+/* ######################################### */
+p::first-line{
+    text-align: center;
+    color: rgb(190, 187, 187);
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+}
+
+h2::before{
+    content: "BEFORE";
+    color: yellow;
+    padding-right: 10px;
+}
+h2::after{
+    content:"AFTER";
+    color:greenyellow;
+    padding-left: 10px;
+}
+/* ######################################## */
+::marker{
+    color: hotpink;
+    font-size: 40px;
+}
+/* ####################################### */
+::selection{
+    background-color: #4f584f;
+}

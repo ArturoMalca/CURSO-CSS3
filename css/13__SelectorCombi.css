@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.SelectorDescendiente{
+    background: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+.SelectorDescendiente h2{
+    text-align: center;
+    border: 1px solid rgb(251, 255, 0);
+}
+.SelectorDescendiente p{
+    margin-top: 10px;
+    border: 1px dotted #999;
+    padding: 10px;
+}
+/* ######################################################### */
+.SelectorChilds{
+    background: rgb(12, 160, 24);
+    padding: 30px;
+    color: #fff;
+}
+.SelectorChilds > h2{
+    text-align: center;
+    border: 1px solid rgb(250, 248, 248);
+}
+.SelectorChilds > p{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px dashed #fff;
+}
+/* ############################################## */
+.SelectorAdyacente{
+    background: rgb(241, 245, 245);
+    padding: 20px;
+}
+.SelectorAdyacente h2{
+    text-align: center;
+    border: 1px solid #333;
+}
+.SelectorAdyacente h2 + p{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+}
+/* ################################## */
+.SelectorHermanos{
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.SelectorHermanos h2{
+    text-align: center;
+    border: 1px dotted #fff;
+}
+.SelectorHermanos h2 ~ p{
+    margin-top: 10px;
+    padding:10px;
+    border: 1px dotted #fff;
+}
